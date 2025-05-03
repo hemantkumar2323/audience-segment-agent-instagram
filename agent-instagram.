@@ -1,0 +1,10 @@
+/audience-segment-agent-instagram
+├── api/
+│   └── fetch-instagram.js       # Vercel serverless endpoint
+├── lib/
+│   ├── instagram.js             # IG Graph API client
+│   └── sheets.js                # Google Sheets helper
+├── .env.example                 # env vars template
+├── package.json
+└── README.md
+
